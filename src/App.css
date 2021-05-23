@@ -1,7 +1,15 @@
-.App {
-  text-align: center;
+/* Variables */
+:root {
+  --white: #fff;
+  --backgroundColor: #00124B;
+  --darkShade: #282c34;
+  --textShade: #000E3C;
 }
 
+body {
+  background-color: var(--backgroundColor);
+  min-height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,8 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;

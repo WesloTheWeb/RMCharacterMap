@@ -1,0 +1,21 @@
+@import '../../App.css';
+
+.guidedTextContainer {
+    padding: 0 10rem;
+}
+
+.guidedText {
+    background-color: var(--textShade);
+    border: 1px solid rgb(214,173,111);
+    display: flex;
+    padding: 1.5rem;
+}
+
+.guidedText img {
+    width: 8%;
+    height: 8%;
+}
+
+.guidedText p {
+    margin-left: 2rem;
+}
