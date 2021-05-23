@@ -1,0 +1,7 @@
+.characterGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5rem auto;
+    padding: 2.5rem;
+    color: red;
+}

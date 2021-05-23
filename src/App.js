@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Textbox from './components/Textbox/Textbox.js';
+import CharacterGrid from './containers/CharacterGrid/CharacterGrid';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a> */}
       </header>
+      <CharacterGrid />
     </div>
   );
 }
