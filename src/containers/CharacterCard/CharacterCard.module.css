@@ -3,6 +3,7 @@
 .cardContainer {
     border: 2.5px var(--borderColor) solid;
     margin: 0 auto;
+    width: 88%;
 }
 
 .cardContainer:hover {
@@ -12,4 +13,10 @@
 
 .cardInfo {
     background-color: black;
+}
+
+.cardDetails {
+    background-color: black;
+    margin-top: -1rem;
+    padding-top: 1rem;
 }
