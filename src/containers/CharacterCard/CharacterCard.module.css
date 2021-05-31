@@ -1,0 +1,15 @@
+@import '../../App.css';
+
+.cardContainer {
+    border: 2.5px var(--borderColor) solid;
+    margin: 0 auto;
+}
+
+.cardContainer:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+.cardInfo {
+    background-color: black;
+}

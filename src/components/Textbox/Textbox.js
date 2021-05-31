@@ -3,7 +3,6 @@ import classes from './Textbox.module.css';
 import { worriedMorty } from '../../assets/index.js';
 
 const { guidedText, guidedTextContainer } = classes;
- console.log(worriedMorty);
 const Textbox = (props) => {
     return (
         <section className={guidedTextContainer}>

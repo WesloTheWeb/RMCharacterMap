@@ -1,10 +1,9 @@
 import React from 'react';
 
-const foo = (props) => {
+const Navigation = (props) => {
     return (
-        <div></div>
+        <nav></nav>
     );
 };
 
-
-export default foo;
+export default Navigation;

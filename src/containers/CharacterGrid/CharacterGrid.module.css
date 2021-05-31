@@ -1,7 +1,25 @@
-.characterGrid {
+@import '../../App.css';
+
+.gridContainer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
     margin: 5rem auto;
     padding: 2.5rem;
-    color: red;
+    color: var(--white);
+}
+
+.gridContainer span {
+    display: block;
+    font-weight: bold;
+    padding: .25rem .25rem;
+}
+
+.gridContainer span:last-child {
+    padding-bottom: 1rem;
+}
+
+.gridContainer label {
+    text-transform: capitalize;
+    font-weight: normal;
 }
