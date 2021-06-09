@@ -1,3 +1,4 @@
+import React from "react"
 import './App.css';
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import { portal } from './assets/index';
@@ -10,7 +11,7 @@ function App() {
       <header>
         <HeroBanner />
       </header>
-      <div class="portal-container">
+      <div className="portal-container">
         <img src={portal} className="App-logo" alt="logo" />
       </div>
       <Textbox>
@@ -18,6 +19,7 @@ function App() {
         or search for your favorite character. A-a-at the top is a random character. Click through to see a full profile.
         </Textbox>
       <CharacterGrid />
+  
     </div>
   );
 }
